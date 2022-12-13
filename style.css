@@ -30,7 +30,6 @@ a:visited {
 }
 
 .page {
-  width: 1280px;
   padding-inline: 99px;
   padding-top: 71px;
 }
@@ -61,9 +60,9 @@ nav {
 
 main {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 82px;
-
-  max-width: 1092px;
 }
 
 .left img {
