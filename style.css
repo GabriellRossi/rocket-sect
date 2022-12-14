@@ -65,23 +65,20 @@ main {
   gap: 82px;
 }
 
-.left img {
-  max-width: 401px;
-  height: auto;
-}
-
 .right {
   display: flex;
   flex-direction: column;
 }
 
-.title {
+.title{
   display: flex;
   gap: 5px;
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 700;
+  height:  40px;
+  text-align: center;
   color: var(--text-color-branco);
-  margin-bottom: 59px;
+  margin: 0 auto 40px;
 }
 
 .title span {
@@ -95,7 +92,6 @@ main {
   line-height: 28px;
   text-align: center;
   color: var(--text-description);
-  max-width: 604px;
 }
 
 .description strong {
@@ -108,34 +104,35 @@ main {
   color: var(--text-strong);
 }
 
+
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-footer .line {
-  width: 568px;
-  border: 1px solid var(--color-line);
-  margin: 160px auto 27px;
-}
-
-footer .informacoes p,
-footer .informacoes p a {
   font-size: 14px;
   font-weight: 500;
   line-height: 28px;
+  margin-top: 157px;
+  
+  text-align: center;
+  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer,
+footer a {
   color: var(--text-color-branco);
 }
 
-footer .informacoes a {
-  cursor: pointer;
+#line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 27px;
+
+  border: 1px solid #00bfa6;
 }
 
-#cadeado-decoracao {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 0 15px;
+#padlock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
